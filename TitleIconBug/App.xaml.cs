@@ -1,7 +1,5 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using TitleIconBug.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace TitleIconBug

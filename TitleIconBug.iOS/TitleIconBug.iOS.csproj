@@ -124,6 +124,10 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\my_icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\my_icon.imageset\my_icon.png" />
+    <ImageAsset Include="Assets.xcassets\my_icon.imageset\my_icon%402x.png" />
+    <ImageAsset Include="Assets.xcassets\my_icon.imageset\my_icon%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,7 +136,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="3.2.0.871581" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -140,5 +144,8 @@
       <Project>{B9B92DB5-BB43-437F-A4FF-58A7791CED6F}</Project>
       <Name>TitleIconBug</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\my_icon.imageset\" />
   </ItemGroup>
 </Project>
